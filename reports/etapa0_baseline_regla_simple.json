@@ -1,0 +1,371 @@
+{
+  "summary": {
+    "label": "regla_simple",
+    "n_episodes": 30,
+    "mean": 272.2,
+    "median": 237.5,
+    "std": 96.5,
+    "min": 180.0,
+    "max": 540.0,
+    "p90": 367.5,
+    "expected_best_of_5": 395.2,
+    "metadata": {
+      "env_config": {
+        "env_id": "ALE/SpaceInvaders-v5",
+        "game": "space_invaders",
+        "repeat_action_probability": 0.25,
+        "frameskip": 4,
+        "full_action_space": false,
+        "max_num_frames_per_episode": 108000,
+        "img_height": 84,
+        "img_width": 84,
+        "grayscale": true,
+        "stack_num": 4,
+        "maxpool": true,
+        "noop_max": 30
+      },
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT",
+        "RIGHTFIRE",
+        "LEFTFIRE"
+      ]
+    }
+  },
+  "scores": [
+    540.0,
+    210.0,
+    185.0,
+    300.0,
+    210.0,
+    185.0,
+    345.0,
+    365.0,
+    185.0,
+    185.0,
+    345.0,
+    210.0,
+    330.0,
+    185.0,
+    390.0,
+    285.0,
+    300.0,
+    180.0,
+    265.0,
+    210.0,
+    185.0,
+    185.0,
+    210.0,
+    210.0,
+    295.0,
+    185.0,
+    345.0,
+    535.0,
+    290.0,
+    315.0
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 1000,
+      "score": 540.0,
+      "steps": 1074,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.43437730000005104
+    },
+    {
+      "episode": 1,
+      "seed": 1001,
+      "score": 210.0,
+      "steps": 607,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2340455000012298
+    },
+    {
+      "episode": 2,
+      "seed": 1002,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.23903660000360105
+    },
+    {
+      "episode": 3,
+      "seed": 1003,
+      "score": 300.0,
+      "steps": 809,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.3274172000019462
+    },
+    {
+      "episode": 4,
+      "seed": 1004,
+      "score": 210.0,
+      "steps": 693,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2824654000069131
+    },
+    {
+      "episode": 5,
+      "seed": 1005,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2597243999989587
+    },
+    {
+      "episode": 6,
+      "seed": 1006,
+      "score": 345.0,
+      "steps": 823,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.33132730000215815
+    },
+    {
+      "episode": 7,
+      "seed": 1007,
+      "score": 365.0,
+      "steps": 828,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.3363616999995429
+    },
+    {
+      "episode": 8,
+      "seed": 1008,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2560511999981827
+    },
+    {
+      "episode": 9,
+      "seed": 1009,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.24957260000519454
+    },
+    {
+      "episode": 10,
+      "seed": 1010,
+      "score": 345.0,
+      "steps": 820,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.32274860000325134
+    },
+    {
+      "episode": 11,
+      "seed": 1011,
+      "score": 210.0,
+      "steps": 638,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2474067999937688
+    },
+    {
+      "episode": 12,
+      "seed": 1012,
+      "score": 330.0,
+      "steps": 1036,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.4096529999951599
+    },
+    {
+      "episode": 13,
+      "seed": 1013,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2591455000001588
+    },
+    {
+      "episode": 14,
+      "seed": 1014,
+      "score": 390.0,
+      "steps": 1110,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.4431907999969553
+    },
+    {
+      "episode": 15,
+      "seed": 1015,
+      "score": 285.0,
+      "steps": 732,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.28676629999972647
+    },
+    {
+      "episode": 16,
+      "seed": 1016,
+      "score": 300.0,
+      "steps": 828,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.33269779999682214
+    },
+    {
+      "episode": 17,
+      "seed": 1017,
+      "score": 180.0,
+      "steps": 660,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.26012449999689125
+    },
+    {
+      "episode": 18,
+      "seed": 1018,
+      "score": 265.0,
+      "steps": 732,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.29787470000155736
+    },
+    {
+      "episode": 19,
+      "seed": 1019,
+      "score": 210.0,
+      "steps": 632,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2545019999961369
+    },
+    {
+      "episode": 20,
+      "seed": 1020,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.23620349999691825
+    },
+    {
+      "episode": 21,
+      "seed": 1021,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.24397669999598293
+    },
+    {
+      "episode": 22,
+      "seed": 1022,
+      "score": 210.0,
+      "steps": 607,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2522037000017008
+    },
+    {
+      "episode": 23,
+      "seed": 1023,
+      "score": 210.0,
+      "steps": 607,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.253050200000871
+    },
+    {
+      "episode": 24,
+      "seed": 1024,
+      "score": 295.0,
+      "steps": 757,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.30122900000424124
+    },
+    {
+      "episode": 25,
+      "seed": 1025,
+      "score": 185.0,
+      "steps": 605,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.2434817999965162
+    },
+    {
+      "episode": 26,
+      "seed": 1026,
+      "score": 345.0,
+      "steps": 1052,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.4091734000030556
+    },
+    {
+      "episode": 27,
+      "seed": 1027,
+      "score": 535.0,
+      "steps": 1047,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.4101576000030036
+    },
+    {
+      "episode": 28,
+      "seed": 1028,
+      "score": 290.0,
+      "steps": 818,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.3348898000040208
+    },
+    {
+      "episode": 29,
+      "seed": 1029,
+      "score": 315.0,
+      "steps": 892,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.3531578999973135
+    }
+  ]
+}

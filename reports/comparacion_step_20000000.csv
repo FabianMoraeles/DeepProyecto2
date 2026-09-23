@@ -1,0 +1,4 @@
+experimento,algo,double,dueling,n_step,per,steps,media,mediana,desv,p90,max,E_max_de_5
+E07_champion_seed0,dqn,True,True,3,False,20000000,2024.2,2357.5,890.1,2990.0,3160.0,2865.0
+E09_gamma997_seed0,dqn,True,True,3,False,20000000,1816.2,2002.5,704.2,2585.0,3025.0,2545.1
+E08_hreward_seed0,dqn,True,True,3,False,20000000,981.4,777.5,519.5,1790.0,2570.0,1651.2

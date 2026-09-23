@@ -1,0 +1,97 @@
+{
+  "checkpoint": "step_4000000.pt",
+  "episodios": 100,
+  "epsilon": 0.001,
+  "reportes": {
+    "E01_dqn_seed0": {
+      "label": "E01_dqn_seed0",
+      "n_episodes": 100,
+      "mean": 494.1,
+      "median": 542.5,
+      "std": 181.0,
+      "min": 45.0,
+      "max": 1040.0,
+      "p90": 696.5,
+      "expected_best_of_5": 686.8,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 11.9
+      }
+    },
+    "E02_double_seed0": {
+      "label": "E02_double_seed0",
+      "n_episodes": 100,
+      "mean": 534.2,
+      "median": 542.5,
+      "std": 132.8,
+      "min": 155.0,
+      "max": 970.0,
+      "p90": 691.0,
+      "expected_best_of_5": 676.0,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 11.0
+      }
+    },
+    "E03_dueling_seed0": {
+      "label": "E03_dueling_seed0",
+      "n_episodes": 100,
+      "mean": 612.0,
+      "median": 587.5,
+      "std": 138.4,
+      "min": 265.0,
+      "max": 1050.0,
+      "p90": 791.0,
+      "expected_best_of_5": 775.2,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 12.5
+      }
+    },
+    "E04_nstep_seed0": {
+      "label": "E04_nstep_seed0",
+      "n_episodes": 100,
+      "mean": 904.5,
+      "median": 977.5,
+      "std": 342.4,
+      "min": 330.0,
+      "max": 1670.0,
+      "p90": 1348.5,
+      "expected_best_of_5": 1302.6,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 21.7
+      }
+    },
+    "E05_per_seed0": {
+      "label": "E05_per_seed0",
+      "n_episodes": 100,
+      "mean": 752.9,
+      "median": 602.5,
+      "std": 214.5,
+      "min": 495.0,
+      "max": 1475.0,
+      "p90": 1034.5,
+      "expected_best_of_5": 1029.5,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 17.2
+      }
+    },
+    "E06_iqn_seed0": {
+      "label": "E06_iqn_seed0",
+      "n_episodes": 100,
+      "mean": 578.4,
+      "median": 552.5,
+      "std": 138.7,
+      "min": 315.0,
+      "max": 1540.0,
+      "p90": 740.0,
+      "expected_best_of_5": 731.4,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 17.9
+      }
+    }
+  }
+}

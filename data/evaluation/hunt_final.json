@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "label": "final",
+    "n_episodes": 25,
+    "mean": 846.2,
+    "median": 605.0,
+    "std": 300.1,
+    "min": 545.0,
+    "max": 1345.0,
+    "p90": 1295.0,
+    "expected_best_of_5": 1212.1,
+    "metadata": {
+      "checkpoint": "runs\\E01_dqn_seed0\\final.pt",
+      "step": 10000000,
+      "epsilon": 0.0,
+      "distorsion": null,
+      "eta": 0.25,
+      "env_config": {
+        "env_id": "ALE/SpaceInvaders-v5",
+        "game": "space_invaders",
+        "repeat_action_probability": 0.25,
+        "frameskip": 4,
+        "full_action_space": false,
+        "max_num_frames_per_episode": 108000,
+        "img_height": 84,
+        "img_width": 84,
+        "grayscale": true,
+        "stack_num": 4,
+        "maxpool": true,
+        "noop_max": 30
+      }
+    }
+  },
+  "scores": [
+    600.0,
+    570.0,
+    600.0,
+    1235.0,
+    600.0,
+    600.0,
+    1345.0,
+    1175.0,
+    795.0,
+    605.0,
+    575.0,
+    545.0,
+    1125.0,
+    600.0,
+    1335.0,
+    550.0,
+    600.0,
+    600.0,
+    605.0,
+    1175.0,
+    1345.0,
+    1200.0,
+    840.0,
+    1115.0,
+    820.0
+  ],
+  "episodes": []
+}

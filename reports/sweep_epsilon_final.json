@@ -1,0 +1,46 @@
+{
+  "checkpoint": "runs\\E04_nstep_seed0\\final.pt",
+  "episodios": 100,
+  "resultados": [
+    {
+      "epsilon": 0.0,
+      "media": 871.3,
+      "mediana": 747.5,
+      "desv": 359.4,
+      "p90": 1297.5,
+      "max": 1860.0,
+      "E_max_de_5": 1308.5,
+      "p10_max_de_5": 1060.0
+    },
+    {
+      "epsilon": 0.001,
+      "media": 920.8,
+      "mediana": 975.0,
+      "desv": 373.0,
+      "p90": 1266.0,
+      "max": 1875.0,
+      "E_max_de_5": 1364.7,
+      "p10_max_de_5": 1100.0
+    },
+    {
+      "epsilon": 0.01,
+      "media": 928.6,
+      "mediana": 960.0,
+      "desv": 373.5,
+      "p90": 1385.0,
+      "max": 1810.0,
+      "E_max_de_5": 1384.0,
+      "p10_max_de_5": 1105.0
+    },
+    {
+      "epsilon": 0.05,
+      "media": 804.5,
+      "mediana": 602.5,
+      "desv": 321.9,
+      "p90": 1230.5,
+      "max": 1640.0,
+      "E_max_de_5": 1209.3,
+      "p10_max_de_5": 970.0
+    }
+  ]
+}

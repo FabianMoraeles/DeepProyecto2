@@ -1,0 +1,70 @@
+{
+  "checkpoint": "runs\\E06_iqn_seed0\\mejor.pt",
+  "step": 11000704,
+  "episodios": 100,
+  "resultados": [
+    {
+      "distorsion": "neutral",
+      "eta": 0.0,
+      "media": 910.0,
+      "desv": 345.9,
+      "p90": 1394.5,
+      "max": 1965.0,
+      "E_max_de_5": 1336.6
+    },
+    {
+      "distorsion": "cvar_sup",
+      "eta": 0.75,
+      "media": 868.8,
+      "desv": 360.1,
+      "p90": 1400.0,
+      "max": 2060.0,
+      "E_max_de_5": 1331.3
+    },
+    {
+      "distorsion": "cvar_sup",
+      "eta": 0.5,
+      "media": 849.5,
+      "desv": 340.0,
+      "p90": 1386.0,
+      "max": 1825.0,
+      "E_max_de_5": 1279.7
+    },
+    {
+      "distorsion": "cvar_sup",
+      "eta": 0.25,
+      "media": 773.7,
+      "desv": 304.8,
+      "p90": 1230.0,
+      "max": 1975.0,
+      "E_max_de_5": 1172.0
+    },
+    {
+      "distorsion": "wang",
+      "eta": 0.75,
+      "media": 802.5,
+      "desv": 326.4,
+      "p90": 1375.0,
+      "max": 1775.0,
+      "E_max_de_5": 1230.6
+    },
+    {
+      "distorsion": "pow",
+      "eta": 1.0,
+      "media": 1032.1,
+      "desv": 378.9,
+      "p90": 1451.5,
+      "max": 2030.0,
+      "E_max_de_5": 1473.0
+    },
+    {
+      "distorsion": "cvar",
+      "eta": 0.5,
+      "media": 998.5,
+      "desv": 368.6,
+      "p90": 1416.0,
+      "max": 2110.0,
+      "E_max_de_5": 1426.8
+    }
+  ]
+}

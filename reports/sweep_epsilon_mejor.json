@@ -1,0 +1,46 @@
+{
+  "checkpoint": "runs\\E07_champion_seed0\\mejor.pt",
+  "episodios": 80,
+  "resultados": [
+    {
+      "epsilon": 0.0,
+      "media": 2364.5,
+      "mediana": 2815.0,
+      "desv": 774.6,
+      "p90": 2987.5,
+      "max": 3395.0,
+      "E_max_de_5": 2941.6,
+      "p10_max_de_5": 2815.0
+    },
+    {
+      "epsilon": 0.001,
+      "media": 2340.5,
+      "mediana": 2815.0,
+      "desv": 796.2,
+      "p90": 2940.0,
+      "max": 3220.0,
+      "E_max_de_5": 2920.1,
+      "p10_max_de_5": 2815.0
+    },
+    {
+      "epsilon": 0.01,
+      "media": 2370.2,
+      "mediana": 2802.5,
+      "desv": 747.2,
+      "p90": 2880.0,
+      "max": 3160.0,
+      "E_max_de_5": 2902.8,
+      "p10_max_de_5": 2815.0
+    },
+    {
+      "epsilon": 0.05,
+      "media": 1957.7,
+      "mediana": 2255.0,
+      "desv": 867.2,
+      "p90": 2820.0,
+      "max": 3215.0,
+      "E_max_de_5": 2791.9,
+      "p10_max_de_5": 2710.0
+    }
+  ]
+}

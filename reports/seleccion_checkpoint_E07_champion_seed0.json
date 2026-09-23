@@ -1,0 +1,147 @@
+{
+  "run": "E07_champion_seed0",
+  "episodios": 200,
+  "epsilon": 0.0,
+  "resultados": [
+    {
+      "checkpoint": "step_28000000.pt",
+      "steps": 28000000,
+      "media": 2223.8,
+      "mediana": 2687.5,
+      "desv": 789.5,
+      "p90": 2960.0,
+      "max": 3420.0,
+      "E_max_de_5": 2910.0
+    },
+    {
+      "checkpoint": "step_30000000.pt",
+      "steps": 30000000,
+      "media": 2230.2,
+      "mediana": 2740.0,
+      "desv": 824.9,
+      "p90": 2945.0,
+      "max": 3215.0,
+      "E_max_de_5": 2898.5
+    },
+    {
+      "checkpoint": "step_32000000.pt",
+      "steps": 32000000,
+      "media": 2273.9,
+      "mediana": 2767.5,
+      "desv": 823.4,
+      "p90": 3015.0,
+      "max": 3320.0,
+      "E_max_de_5": 2942.0
+    },
+    {
+      "checkpoint": "step_34000000.pt",
+      "steps": 34000000,
+      "media": 2133.8,
+      "mediana": 2715.0,
+      "desv": 936.9,
+      "p90": 3015.0,
+      "max": 3645.0,
+      "E_max_de_5": 2964.4
+    },
+    {
+      "checkpoint": "step_36000000.pt",
+      "steps": 36000000,
+      "media": 2360.8,
+      "mediana": 2802.5,
+      "desv": 801.9,
+      "p90": 2962.0,
+      "max": 3235.0,
+      "E_max_de_5": 2938.0
+    },
+    {
+      "checkpoint": "step_38000000.pt",
+      "steps": 38000000,
+      "media": 2290.3,
+      "mediana": 2815.0,
+      "desv": 826.9,
+      "p90": 2820.0,
+      "max": 3400.0,
+      "E_max_de_5": 2887.4
+    },
+    {
+      "checkpoint": "step_40000000.pt",
+      "steps": 40000000,
+      "media": 2451.4,
+      "mediana": 2815.0,
+      "desv": 699.3,
+      "p90": 2823.0,
+      "max": 3445.0,
+      "E_max_de_5": 2913.5
+    },
+    {
+      "checkpoint": "step_42000000.pt",
+      "steps": 42000000,
+      "media": 2444.2,
+      "mediana": 2815.0,
+      "desv": 717.7,
+      "p90": 2940.0,
+      "max": 3645.0,
+      "E_max_de_5": 2937.4
+    },
+    {
+      "checkpoint": "step_44000000.pt",
+      "steps": 44000000,
+      "media": 2442.8,
+      "mediana": 2815.0,
+      "desv": 695.2,
+      "p90": 2843.0,
+      "max": 3225.0,
+      "E_max_de_5": 2898.9
+    },
+    {
+      "checkpoint": "step_46000000.pt",
+      "steps": 46000000,
+      "media": 2385.5,
+      "mediana": 2762.5,
+      "desv": 706.8,
+      "p90": 2917.0,
+      "max": 3365.0,
+      "E_max_de_5": 2903.2
+    },
+    {
+      "checkpoint": "step_48000000.pt",
+      "steps": 48000000,
+      "media": 2368.3,
+      "mediana": 2815.0,
+      "desv": 826.2,
+      "p90": 2905.0,
+      "max": 3545.0,
+      "E_max_de_5": 2903.1
+    },
+    {
+      "checkpoint": "step_50000000.pt",
+      "steps": 50000000,
+      "media": 2563.1,
+      "mediana": 2815.0,
+      "desv": 601.4,
+      "p90": 2963.0,
+      "max": 3590.0,
+      "E_max_de_5": 2921.2
+    },
+    {
+      "checkpoint": "mejor.pt",
+      "steps": 49503168,
+      "media": 2379.0,
+      "mediana": 2815.0,
+      "desv": 741.9,
+      "p90": 2882.5,
+      "max": 3370.0,
+      "E_max_de_5": 2899.4
+    },
+    {
+      "checkpoint": "final.pt",
+      "steps": 50000000,
+      "media": 2563.1,
+      "mediana": 2815.0,
+      "desv": 601.4,
+      "p90": 2963.0,
+      "max": 3590.0,
+      "E_max_de_5": 2921.2
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "checkpoint": "step_1000000.pt",
+  "episodios": 32,
+  "epsilon": 0.001,
+  "reportes": {
+    "E01_dqn_seed0": {
+      "label": "E01_dqn_seed0",
+      "n_episodes": 32,
+      "mean": 235.5,
+      "median": 220.0,
+      "std": 141.8,
+      "min": 95.0,
+      "max": 870.0,
+      "p90": 299.0,
+      "expected_best_of_5": 398.4,
+      "metadata": {
+        "num_envs": 16,
+        "duracion_s": 5.8
+      }
+    },
+    "E02_double_seed0": {
+      "label": "E02_double_seed0",
+      "n_episodes": 32,
+      "mean": 179.8,
+      "median": 147.5,
+      "std": 90.9,
+      "min": 55.0,
+      "max": 460.0,
+      "p90": 308.5,
+      "expected_best_of_5": 296.5,
+      "metadata": {
+        "num_envs": 16,
+        "duracion_s": 4.4
+      }
+    }
+  }
+}

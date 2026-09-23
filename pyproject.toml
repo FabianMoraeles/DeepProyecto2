@@ -1,0 +1,32 @@
+[project]
+name = "si-rl"
+version = "0.1.0"
+description = "Agente de Reinforcement Learning para ALE/SpaceInvaders-v5 - Proyecto 2 CC3092"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium>=1.3",
+    "ale-py>=0.12",
+    "torch>=2.9",
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "matplotlib",
+    "tensorboard",
+    "imageio",
+    "imageio-ffmpeg",
+    "moviepy",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/si_rl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

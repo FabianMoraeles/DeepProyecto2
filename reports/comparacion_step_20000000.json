@@ -1,0 +1,52 @@
+{
+  "checkpoint": "step_20000000.pt",
+  "episodios": 100,
+  "epsilon": 0.001,
+  "reportes": {
+    "E07_champion_seed0": {
+      "label": "E07_champion_seed0",
+      "n_episodes": 100,
+      "mean": 2024.2,
+      "median": 2357.5,
+      "std": 890.1,
+      "min": 185.0,
+      "max": 3160.0,
+      "p90": 2990.0,
+      "expected_best_of_5": 2865.0,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 21.4
+      }
+    },
+    "E08_hreward_seed0": {
+      "label": "E08_hreward_seed0",
+      "n_episodes": 100,
+      "mean": 981.4,
+      "median": 777.5,
+      "std": 519.5,
+      "min": 295.0,
+      "max": 2570.0,
+      "p90": 1790.0,
+      "expected_best_of_5": 1651.2,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 17.1
+      }
+    },
+    "E09_gamma997_seed0": {
+      "label": "E09_gamma997_seed0",
+      "n_episodes": 100,
+      "mean": 1816.2,
+      "median": 2002.5,
+      "std": 704.2,
+      "min": 470.0,
+      "max": 3025.0,
+      "p90": 2585.0,
+      "expected_best_of_5": 2545.1,
+      "metadata": {
+        "num_envs": 25,
+        "duracion_s": 24.6
+      }
+    }
+  }
+}

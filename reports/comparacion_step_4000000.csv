@@ -1,0 +1,7 @@
+experimento,algo,double,dueling,n_step,per,steps,media,mediana,desv,p90,max,E_max_de_5
+E04_nstep_seed0,dqn,True,True,3,False,4000000,904.5,977.5,342.4,1348.5,1670.0,1302.6
+E05_per_seed0,dqn,True,True,3,True,4000000,752.9,602.5,214.5,1034.5,1475.0,1029.5
+E03_dueling_seed0,dqn,True,True,1,False,4000000,612.0,587.5,138.4,791.0,1050.0,775.2
+E06_iqn_seed0,iqn,True,True,3,False,4000000,578.4,552.5,138.7,740.0,1540.0,731.4
+E01_dqn_seed0,dqn,False,False,1,False,4000000,494.1,542.5,181.0,696.5,1040.0,686.8
+E02_double_seed0,dqn,True,False,1,False,4000000,534.2,542.5,132.8,691.0,970.0,676.0

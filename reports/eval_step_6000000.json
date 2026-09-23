@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "label": "step_6000000",
+    "n_episodes": 5,
+    "mean": 615.0,
+    "median": 575.0,
+    "std": 95.8,
+    "min": 545.0,
+    "max": 805.0,
+    "p90": 715.0,
+    "expected_best_of_5": 730.5,
+    "metadata": {
+      "checkpoint": "runs\\E01_dqn_seed0\\step_6000000.pt",
+      "step": 6000000,
+      "epsilon": 0.001,
+      "env_config": {
+        "env_id": "ALE/SpaceInvaders-v5",
+        "game": "space_invaders",
+        "repeat_action_probability": 0.25,
+        "frameskip": 4,
+        "full_action_space": false,
+        "max_num_frames_per_episode": 108000,
+        "img_height": 84,
+        "img_width": 84,
+        "grayscale": true,
+        "stack_num": 4,
+        "maxpool": true,
+        "noop_max": 30
+      }
+    }
+  },
+  "scores": [
+    580.0,
+    805.0,
+    570.0,
+    575.0,
+    545.0
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "seed": 1000,
+      "score": 580.0,
+      "steps": 503,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.8560466999988421
+    },
+    {
+      "episode": 1,
+      "seed": 1001,
+      "score": 805.0,
+      "steps": 626,
+      "lives_lost": 1,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.7656978999948478
+    },
+    {
+      "episode": 2,
+      "seed": 1002,
+      "score": 570.0,
+      "steps": 769,
+      "lives_lost": 1,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.9326482000033138
+    },
+    {
+      "episode": 3,
+      "seed": 1003,
+      "score": 575.0,
+      "steps": 598,
+      "lives_lost": 1,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.7598271999959252
+    },
+    {
+      "episode": 4,
+      "seed": 1004,
+      "score": 545.0,
+      "steps": 713,
+      "lives_lost": 3,
+      "terminated": true,
+      "truncated": false,
+      "duration_s": 0.9119768000018666
+    }
+  ]
+}
